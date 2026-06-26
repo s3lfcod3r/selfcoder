@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
-/** Datenschutzerklärung (DSGVO Art. 13). Eigenbetrieb auf eigenem Server (Unraid) in DE. */
+/** Datenschutzerklärung (DSGVO Art. 13). Hosting via GitHub Pages (GitHub Inc., USA). */
 const VERANTWORTLICHER_NAME = "S. Schmidt";
 
 export default function Datenschutz() {
@@ -45,38 +45,51 @@ export default function Datenschutz() {
         <section>
           <h2>2. Hosting / Betrieb</h2>
           <p>
-            Diese Website wird <strong>nicht bei einem externen Dienstleister</strong>, sondern auf
-            einem eigenen Server (Eigenbetrieb) in Deutschland gehostet und betrieben. Eine
-            Weitergabe Ihrer Daten an einen externen Hosting-Anbieter findet nicht statt; eine
-            Übermittlung in Drittländer (z.&nbsp;B. die USA) erfolgt nicht.
+            Diese Website wird bei <strong>GitHub&nbsp;Pages</strong> gehostet, einem Dienst der{" "}
+            <strong>GitHub,&nbsp;Inc.</strong> (88 Colin P. Kelly Jr. Street, San&nbsp;Francisco,
+            CA&nbsp;94107, USA), einem Unternehmen der Microsoft&nbsp;Corporation. Beim Aufruf der
+            Website werden technisch notwendige Verbindungsdaten – insbesondere Ihre IP-Adresse –
+            an Server von GitHub übertragen und dort verarbeitet. Dabei kann eine Übermittlung in
+            die USA stattfinden.
           </p>
           <p>
-            Die beim Aufruf der Website technisch anfallenden Daten (siehe Abschnitt&nbsp;3) werden
-            ausschließlich auf diesem Server verarbeitet. Rechtsgrundlage ist Art.&nbsp;6
-            Abs.&nbsp;1 lit.&nbsp;f DSGVO; es besteht ein berechtigtes Interesse an einer sicheren
-            und stabilen Bereitstellung des Angebots.
+            GitHub,&nbsp;Inc. ist unter dem <em>EU-US Data Privacy Framework</em> zertifiziert;
+            für die Übermittlung personenbezogener Daten in die USA besteht damit ein von der
+            EU-Kommission anerkanntes angemessenes Datenschutzniveau. Rechtsgrundlage für die
+            Nutzung des Hosters ist Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO; es besteht ein
+            berechtigtes Interesse an einer sicheren, stabilen und kostengünstigen Bereitstellung
+            des Angebots. Einzelheiten finden Sie in der{" "}
+            <a
+              href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Datenschutzerklärung von GitHub
+            </a>
+            .
           </p>
         </section>
 
         <section>
           <h2>3. Server-Logfiles</h2>
           <p>
-            Beim Aufruf dieser Website werden automatisch Informationen in sogenannten
-            Server-Logfiles erfasst, die Ihr Browser übermittelt. Dies sind:
+            Beim Aufruf dieser Website werden durch den Hosting-Anbieter (GitHub) automatisch
+            technische Zugriffsdaten verarbeitet, die Ihr Browser übermittelt. Dazu können gehören:
           </p>
           <ul>
             <li>Browsertyp und Browserversion</li>
             <li>verwendetes Betriebssystem</li>
             <li>Referrer-URL</li>
-            <li>Hostname des zugreifenden Rechners</li>
-            <li>Uhrzeit der Serveranfrage</li>
+            <li>Datum und Uhrzeit der Serveranfrage</li>
             <li>IP-Adresse</li>
           </ul>
           <p>
-            Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Die
-            Erfassung erfolgt auf Grundlage von Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO; der
-            Betreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und
-            der Sicherheit seiner Website. Die Logfiles werden nach kurzer Zeit gelöscht.
+            Auf den genauen Umfang und die Speicherdauer dieser serverseitigen Protokollierung hat
+            der Betreiber keinen Einfluss; sie richten sich nach den Vorgaben von GitHub. Der
+            Betreiber selbst erhebt und speichert keine eigenen Server-Logfiles und führt diese
+            Daten nicht mit anderen Datenquellen zusammen. Die Verarbeitung erfolgt auf Grundlage
+            von Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO; es besteht ein berechtigtes Interesse an
+            einer technisch fehlerfreien und sicheren Bereitstellung der Website.
           </p>
         </section>
 
@@ -84,9 +97,9 @@ export default function Datenschutz() {
           <h2>4. Schriftarten (Fonts)</h2>
           <p>
             Diese Website verwendet zur einheitlichen Darstellung Schriftarten, die{" "}
-            <strong>lokal vom eigenen Server</strong> ausgeliefert werden. Eine Verbindung zu Servern
-            Dritter (z.&nbsp;B. Google Fonts) findet dabei <strong>nicht</strong> statt, es werden
-            keine Daten an Dritte übertragen.
+            <strong>direkt mit der Website ausgeliefert</strong> werden (self-hosted, zur Build-Zeit
+            eingebunden). Eine Verbindung zu Servern Dritter (z.&nbsp;B. Google&nbsp;Fonts) findet zur
+            Laufzeit <strong>nicht</strong> statt; es werden hierfür keine Daten an Google übertragen.
           </p>
         </section>
 
