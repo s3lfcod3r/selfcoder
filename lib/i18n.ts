@@ -46,6 +46,7 @@ const stack = {
   selfdashboard: ["TypeScript", "JavaScript"],
   selfmailer: ["TypeScript"],
   selfauthenticator: ["In Entwicklung"],
+  selfstore: ["Kotlin", "HTML"],
 };
 
 export const translations: Record<Lang, Dict> = {
@@ -62,7 +63,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophie",
     },
     stats: [
-      { value: 5, suffix: "", label: "Projekte" },
+      { value: 6, suffix: "", label: "Projekte" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Eigene Kontrolle" },
@@ -143,6 +144,20 @@ export const translations: Record<Lang, Dict> = {
             { label: "Art", value: "Proxy" },
           ],
         },
+        {
+          slug: "selfstore",
+          name: "SelfStore",
+          tagline: "Dein App-Store, ganz ohne Play Store",
+          description:
+            "Ein eigener Android- und TV-App-Store nur für die Self-Projekte: Katalog auf GitHub Pages, automatische Updates, armv7 + armv8. Apps installieren, ohne Google.",
+          stack: stack.selfstore,
+          status: "beta",
+          accent: "mixed",
+          metrics: [
+            { label: "Plattform", value: "Android / TV" },
+            { label: "Art", value: "App-Store" },
+          ],
+        },
       ],
     },
     philosophy: {
@@ -182,7 +197,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophy",
     },
     stats: [
-      { value: 5, suffix: "", label: "Projects" },
+      { value: 6, suffix: "", label: "Projects" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Full control" },
@@ -261,6 +276,20 @@ export const translations: Record<Lang, Dict> = {
           metrics: [
             { label: "Platform", value: "Docker" },
             { label: "Type", value: "Proxy" },
+          ],
+        },
+        {
+          slug: "selfstore",
+          name: "SelfStore",
+          tagline: "Your app store, no Play Store",
+          description:
+            "Your own Android and TV app store, just for the Self projects: catalog hosted on GitHub Pages, automatic updates, armv7 + armv8. Install apps without Google.",
+          stack: stack.selfstore,
+          status: "beta",
+          accent: "mixed",
+          metrics: [
+            { label: "Platform", value: "Android / TV" },
+            { label: "Type", value: "App store" },
           ],
         },
       ],
