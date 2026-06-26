@@ -47,6 +47,8 @@ const stack = {
   selfmailer: ["TypeScript"],
   selfauthenticator: ["In Entwicklung"],
   selfstore: ["Kotlin", "HTML"],
+  selfplayer: ["Kotlin", "Media3"],
+  selfpooltracker: ["HTML", "JavaScript"],
 };
 
 export const translations: Record<Lang, Dict> = {
@@ -63,7 +65,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophie",
     },
     stats: [
-      { value: 6, suffix: "", label: "Projekte" },
+      { value: 8, suffix: "", label: "Projekte" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Eigene Kontrolle" },
@@ -158,6 +160,34 @@ export const translations: Record<Lang, Dict> = {
             { label: "Art", value: "App-Store" },
           ],
         },
+        {
+          slug: "selfplayer",
+          name: "SelfPlayer",
+          tagline: "Dein IPTV-Player, nativ für alle Geräte",
+          description:
+            "Ein nativer Live-TV-Player für Handy, Tablet und Android-TV — sauber neu gebaut. Lädt M3U-Playlists und spielt über Media3/ExoPlayer. Eine App für alle Geräte.",
+          stack: stack.selfplayer,
+          status: "beta",
+          accent: "ice",
+          metrics: [
+            { label: "Plattform", value: "Android / TV" },
+            { label: "Art", value: "Player" },
+          ],
+        },
+        {
+          slug: "selfpooltracker",
+          name: "SelfPoolTracker",
+          tagline: "Dein Pool, immer im grünen Bereich",
+          description:
+            "Ein browserbasierter Wasserwert-Tracker für deinen Pool: pH, Chlor, Redox und Temperatur mit Ampel-Status und Dosierempfehlung. Kein Server, keine Cloud — läuft im Browser und als App.",
+          stack: stack.selfpooltracker,
+          status: "live",
+          accent: "teal",
+          metrics: [
+            { label: "Plattform", value: "Web / Android" },
+            { label: "Art", value: "Tracker" },
+          ],
+        },
       ],
     },
     philosophy: {
@@ -197,7 +227,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophy",
     },
     stats: [
-      { value: 6, suffix: "", label: "Projects" },
+      { value: 8, suffix: "", label: "Projects" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Full control" },
@@ -290,6 +320,34 @@ export const translations: Record<Lang, Dict> = {
           metrics: [
             { label: "Platform", value: "Android / TV" },
             { label: "Type", value: "App store" },
+          ],
+        },
+        {
+          slug: "selfplayer",
+          name: "SelfPlayer",
+          tagline: "Your IPTV player, native on every device",
+          description:
+            "A native live-TV player for phone, tablet and Android TV — built clean from scratch. Loads M3U playlists and plays via Media3/ExoPlayer. One app for every device.",
+          stack: stack.selfplayer,
+          status: "beta",
+          accent: "ice",
+          metrics: [
+            { label: "Platform", value: "Android / TV" },
+            { label: "Type", value: "Player" },
+          ],
+        },
+        {
+          slug: "selfpooltracker",
+          name: "SelfPoolTracker",
+          tagline: "Your pool, always in the green",
+          description:
+            "A browser-based water-quality tracker for your pool: pH, chlorine, redox and temperature with traffic-light status and dosing advice. No server, no cloud — runs in the browser and as an app.",
+          stack: stack.selfpooltracker,
+          status: "live",
+          accent: "teal",
+          metrics: [
+            { label: "Platform", value: "Web / Android" },
+            { label: "Type", value: "Tracker" },
           ],
         },
       ],
