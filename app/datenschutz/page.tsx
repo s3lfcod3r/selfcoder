@@ -55,10 +55,12 @@ export default function Datenschutz() {
           <p>
             GitHub,&nbsp;Inc. ist unter dem <em>EU-US Data Privacy Framework</em> zertifiziert;
             für die Übermittlung personenbezogener Daten in die USA besteht damit ein von der
-            EU-Kommission anerkanntes angemessenes Datenschutzniveau. Rechtsgrundlage für die
-            Nutzung des Hosters ist Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO; es besteht ein
-            berechtigtes Interesse an einer sicheren, stabilen und kostengünstigen Bereitstellung
-            des Angebots. Einzelheiten finden Sie in der{" "}
+            EU-Kommission anerkanntes angemessenes Datenschutzniveau. Ergänzend stützt GitHub
+            Datenübermittlungen auf die <em>Standardvertragsklauseln</em> der EU-Kommission
+            (Durchführungsbeschluss&nbsp;2021/914). Rechtsgrundlage für die Nutzung des Hosters ist
+            Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO; es besteht ein berechtigtes Interesse an
+            einer sicheren, stabilen und kostengünstigen Bereitstellung des Angebots. Einzelheiten
+            finden Sie in der{" "}
             <a
               href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
               target="_blank"
