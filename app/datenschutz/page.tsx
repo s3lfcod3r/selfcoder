@@ -96,7 +96,18 @@ export default function Datenschutz() {
         </section>
 
         <section>
-          <h2>4. Schriftarten (Fonts)</h2>
+          <h2>4. SSL-/TLS-Verschlüsselung</h2>
+          <p>
+            Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung von Inhalten
+            eine <strong>SSL-/TLS-Verschlüsselung</strong>. Eine verschlüsselte Verbindung erkennen
+            Sie daran, dass die Adresszeile des Browsers von „http://" auf „https://" wechselt, sowie
+            am Schloss-Symbol in der Browserzeile. Bei aktiver Verschlüsselung können die Daten, die
+            Sie an diese Website übermitteln, nicht ohne Weiteres von Dritten mitgelesen werden.
+          </p>
+        </section>
+
+        <section>
+          <h2>5. Schriftarten (Fonts)</h2>
           <p>
             Diese Website verwendet zur einheitlichen Darstellung Schriftarten, die{" "}
             <strong>direkt mit der Website ausgeliefert</strong> werden (self-hosted, zur Build-Zeit
@@ -106,7 +117,7 @@ export default function Datenschutz() {
         </section>
 
         <section>
-          <h2>5. Lokale Speicherung (Spracheinstellung)</h2>
+          <h2>6. Lokale Speicherung (Spracheinstellung)</h2>
           <p>
             Zur Speicherung Ihrer gewählten Anzeigesprache (Deutsch/Englisch) wird der lokale
             Speicher Ihres Browsers (<em>localStorage</em>) genutzt. Diese Information verbleibt
@@ -117,7 +128,7 @@ export default function Datenschutz() {
         </section>
 
         <section>
-          <h2>6. Kontaktaufnahme per E-Mail</h2>
+          <h2>7. Kontaktaufnahme per E-Mail</h2>
           <p>
             Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben inklusive der von Ihnen
             angegebenen Kontaktdaten zur Bearbeitung Ihrer Anfrage und für den Fall von
@@ -129,7 +140,7 @@ export default function Datenschutz() {
         </section>
 
         <section>
-          <h2>7. Externe Links</h2>
+          <h2>8. Externe Links</h2>
           <p>
             Diese Website enthält Verlinkungen zu externen Websites Dritter (z.&nbsp;B. GitHub). Auf
             deren Inhalte und Datenverarbeitung haben wir keinen Einfluss; es gelten die
@@ -138,7 +149,7 @@ export default function Datenschutz() {
         </section>
 
         <section>
-          <h2>8. Ihre Rechte</h2>
+          <h2>9. Ihre Rechte</h2>
           <p>Sie haben jederzeit das Recht auf:</p>
           <ul>
             <li>Auskunft über Ihre gespeicherten Daten (Art.&nbsp;15 DSGVO)</li>
