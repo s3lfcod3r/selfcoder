@@ -162,13 +162,13 @@ export const translations: Record<Lang, Dict> = {
     },
     philosophy: {
       tag: "Philosophie",
-      heading: "Als ITler macht's mir Spaß, eigene Lösungen zu bauen.",
-      sub: "SelfCoder ist keine Firma und kein Auftrag, sondern mein Hobby. Als ITler schreibe ich in meiner Freizeit eigene Tools — erst für mich selbst, dann geteilt mit Familie und Freunden. Einfach aus Freude am Bauen.",
+      heading: "Als Technikbegeisterter macht's mir Spaß, eigene Lösungen zu bauen.",
+      sub: "SelfCoder ist keine Firma und kein Auftrag, sondern mein Hobby. Als Technikbegeisterter schreibe ich in meiner Freizeit eigene Tools — erst für mich selbst, dann geteilt mit Familie und Freunden. Einfach aus Freude am Bauen.",
       principles: [
         { t: "Für mich gebaut", d: "Jedes Tool löst zuerst ein eigenes Problem. Was ich brauche, baue ich mir." },
         { t: "Mit den Liebsten geteilt", d: "Was bei mir gut läuft, gebe ich weiter — an Familie und Freunde." },
         { t: "Reines Hobby", d: "Kein Geld, kein Druck, keine Deadline. Ich baue, wann und was ich will." },
-        { t: "Spaß an Technik", d: "Als ITler baue ich, weil mich das Tüfteln einfach begeistert." },
+        { t: "Spaß an Technik", d: "Als Technikbegeisterter baue ich, weil mich das Tüfteln einfach packt." },
       ],
       terminal: [
         "$ docker run -d selfcoder/selfarchiver",
@@ -296,13 +296,13 @@ export const translations: Record<Lang, Dict> = {
     },
     philosophy: {
       tag: "Philosophy",
-      heading: "As an IT guy, I simply enjoy building my own solutions.",
-      sub: "SelfCoder isn't a company or a contract — it's my hobby. As an IT person I build my own tools in my spare time, first for myself, then shared with family and friends. Simply for the joy of building.",
+      heading: "As a tech enthusiast, I simply enjoy building my own solutions.",
+      sub: "SelfCoder isn't a company or a contract — it's my hobby. As a tech enthusiast I build my own tools in my spare time, first for myself, then shared with family and friends. Simply for the joy of building.",
       principles: [
         { t: "Built for myself", d: "Every tool solves a problem of my own first. What I need, I build." },
         { t: "Shared with loved ones", d: "What works well for me, I pass on — to family and friends." },
         { t: "Pure hobby", d: "No money, no pressure, no deadlines. I build what I want, when I want." },
-        { t: "Love for tech", d: "As an IT person, I build because the tinkering simply excites me." },
+        { t: "Love for tech", d: "As a tech enthusiast, I build because the tinkering simply excites me." },
       ],
       terminal: [
         "$ docker run -d selfcoder/selfarchiver",
