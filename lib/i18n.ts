@@ -47,7 +47,6 @@ const stack = {
   selfmailer: ["TypeScript"],
   selfauthenticator: ["In Entwicklung"],
   selfstore: ["Kotlin", "HTML"],
-  selfplayer: ["Kotlin", "Media3"],
   selfpooltracker: ["HTML", "JavaScript"],
 };
 
@@ -158,20 +157,6 @@ export const translations: Record<Lang, Dict> = {
           metrics: [
             { label: "Plattform", value: "Android / TV" },
             { label: "Art", value: "App-Store" },
-          ],
-        },
-        {
-          slug: "selfplayer",
-          name: "SelfPlayer",
-          tagline: "Dein IPTV-Player, nativ für alle Geräte",
-          description:
-            "Ein nativer Live-TV-Player für Handy, Tablet und Android-TV — sauber neu gebaut. Lädt M3U-Playlists und spielt über Media3/ExoPlayer. Eine App für alle Geräte.",
-          stack: stack.selfplayer,
-          status: "beta",
-          accent: "ice",
-          metrics: [
-            { label: "Plattform", value: "Android / TV" },
-            { label: "Art", value: "Player" },
           ],
         },
         {
@@ -320,20 +305,6 @@ export const translations: Record<Lang, Dict> = {
           metrics: [
             { label: "Platform", value: "Android / TV" },
             { label: "Type", value: "App store" },
-          ],
-        },
-        {
-          slug: "selfplayer",
-          name: "SelfPlayer",
-          tagline: "Your IPTV player, native on every device",
-          description:
-            "A native live-TV player for phone, tablet and Android TV — built clean from scratch. Loads M3U playlists and plays via Media3/ExoPlayer. One app for every device.",
-          stack: stack.selfplayer,
-          status: "beta",
-          accent: "ice",
-          metrics: [
-            { label: "Platform", value: "Android / TV" },
-            { label: "Type", value: "Player" },
           ],
         },
         {
