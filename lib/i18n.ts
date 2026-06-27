@@ -48,6 +48,7 @@ const stack = {
   selfauthenticator: ["In Entwicklung"],
   selfstore: ["Kotlin", "HTML"],
   selfpooltracker: ["HTML", "JavaScript"],
+  selfthreatmap: ["JavaScript", "Python"],
 };
 
 export const translations: Record<Lang, Dict> = {
@@ -64,7 +65,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophie",
     },
     stats: [
-      { value: 7, suffix: "", label: "Projekte" },
+      { value: 8, suffix: "", label: "Projekte" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Eigene Kontrolle" },
@@ -173,6 +174,20 @@ export const translations: Record<Lang, Dict> = {
             { label: "Art", value: "Tracker" },
           ],
         },
+        {
+          slug: "selfthreatmap",
+          name: "SelfThreatMap",
+          tagline: "Angriffe live auf der Weltkarte",
+          description:
+            "Eine Live-Angriffskarte für deinen Server: liest CrowdSec-Entscheidungen und zeigt Angriffe in Echtzeit als Bögen auf einer Weltkarte — mit Top-Szenarien, böswilligen IPs und Herkünften. Self-gehostet via Docker.",
+          stack: stack.selfthreatmap,
+          status: "live",
+          accent: "teal",
+          metrics: [
+            { label: "Plattform", value: "Docker" },
+            { label: "Art", value: "Security-Karte" },
+          ],
+        },
       ],
     },
     philosophy: {
@@ -212,7 +227,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophy",
     },
     stats: [
-      { value: 7, suffix: "", label: "Projects" },
+      { value: 8, suffix: "", label: "Projects" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Full control" },
@@ -319,6 +334,20 @@ export const translations: Record<Lang, Dict> = {
           metrics: [
             { label: "Platform", value: "Web / Android" },
             { label: "Type", value: "Tracker" },
+          ],
+        },
+        {
+          slug: "selfthreatmap",
+          name: "SelfThreatMap",
+          tagline: "Attacks live on the world map",
+          description:
+            "A live threat map for your server: reads CrowdSec decisions and shows attacks in real time as arcs across a world map — with top scenarios, malicious IPs and origins. Self-hosted via Docker.",
+          stack: stack.selfthreatmap,
+          status: "live",
+          accent: "teal",
+          metrics: [
+            { label: "Platform", value: "Docker" },
+            { label: "Type", value: "Security map" },
           ],
         },
       ],
