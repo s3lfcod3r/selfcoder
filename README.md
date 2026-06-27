@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+<img src="public/logo-wide.png" alt="SelfCoder" width="320" />
 
-First, run the development server:
+# selfcoder.de
+
+**Developer portfolio for SelfCoder — a family of self-hosted, open-source tools.**
+*Entwickler-Portfolio für SelfCoder — eine Familie self-hosted, quelloffener Tools.*
+
+[![Deploy to GitHub Pages](https://github.com/s3lfcod3r/selfcoder/actions/workflows/deploy.yml/badge.svg)](https://github.com/s3lfcod3r/selfcoder/actions/workflows/deploy.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22d3ee.svg)](LICENSE)
+[![Live](https://img.shields.io/badge/live-selfcoder.de-0ea5e9.svg)](https://selfcoder.de)
+
+</div>
+
+---
+
+## 🇩🇪 Deutsch
+
+Das ist die Quelle der Portfolio-Website **[selfcoder.de](https://selfcoder.de)** — eine dunkle, animierte One-Page-Seite, die die Self-Projekte (SelfStream, SelfArchiver, SelfDashboard u. a.) vorstellt. Statisch gebaut und kostenlos über GitHub Pages gehostet.
+
+### Tech-Stack
+
+| Bereich        | Technologie |
+|----------------|-------------|
+| Framework      | **Next.js 16** (App Router, `output: "export"`) |
+| UI-Library     | **React 19** |
+| Styling        | **Tailwind CSS 4** |
+| Animation      | **Framer Motion 12** |
+| 3D / WebGL     | **three.js** + **React Three Fiber** / **drei** |
+| Smooth-Scroll  | **Lenis** |
+| Sprache        | **TypeScript 5** |
+
+### Voraussetzungen
+
+- **Node.js 20** (gleiche Version wie die CI)
+- npm (liegt Node bei)
+
+### Einrichtung
+
+```bash
+npm install
+```
+
+### Entwicklung
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Läuft dann auf **http://localhost:3220**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> **Warum `--webpack`?**
+> Die Skripte erzwingen den Webpack-Bundler (`next dev --webpack`, `next build --webpack`),
+> weil der Standard-Bundler **Turbopack** auf einem **Netzlaufwerk** (hier ein gemapptes
+> RAID-Laufwerk) nicht zuverlässig läuft — er bricht beim Datei-Watching/Caching ab.
+> Webpack ist langsamer, funktioniert auf dem Netzlaufwerk aber stabil. Wer lokal von
+> einer SSD aus arbeitet, kann das Flag in `package.json` entfernen.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build (statischer Export)
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Erzeugt den statischen Export im Ordner **`out/`** (ebenfalls mit `--webpack`).
+Lokales Vorschau-Hosting des Builds: `npm run start` (Port 3220).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Vollautomatisch — **kein lokaler Build nötig**:
 
-## Deploy on Vercel
+1. Push auf `main` löst den GitHub-Actions-Workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) aus.
+2. Die Action baut den statischen Export in der Cloud und veröffentlicht den Ordner `out/` auf **GitHub Pages**.
+3. Die eigene Domain wird über [`public/CNAME`](public/CNAME) gesetzt (**selfcoder.de**), HTTPS stellt GitHub bereit.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Manuelles Auslösen ist über den Actions-Tab (`workflow_dispatch`) möglich.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Lizenz
+
+MIT — siehe [LICENSE](LICENSE).
+
+---
+
+## 🇬🇧 English
+
+Source of the portfolio website **[selfcoder.de](https://selfcoder.de)** — a dark, animated one-page site that showcases the Self projects (SelfStream, SelfArchiver, SelfDashboard, and more). Built as a static export and hosted for free on GitHub Pages.
+
+### Tech stack
+
+| Area        | Technology |
+|-------------|------------|
+| Framework   | **Next.js 16** (App Router, `output: "export"`) |
+| UI library  | **React 19** |
+| Styling     | **Tailwind CSS 4** |
+| Animation   | **Framer Motion 12** |
+| 3D / WebGL  | **three.js** + **React Three Fiber** / **drei** |
+| Smooth scroll | **Lenis** |
+| Language    | **TypeScript 5** |
+
+### Prerequisites
+
+- **Node.js 20** (matches the CI)
+- npm (ships with Node)
+
+### Setup
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Runs on **http://localhost:3220**.
+
+> **Why `--webpack`?**
+> The scripts force the Webpack bundler (`next dev --webpack`, `next build --webpack`)
+> because the default bundler **Turbopack** does not run reliably from a **network drive**
+> (a mapped RAID volume here) — its file watching/caching breaks. Webpack is slower but
+> stable on the network drive. If you work from a local SSD you can drop the flag in
+> `package.json`.
+
+### Build (static export)
+
+```bash
+npm run build
+```
+
+Produces the static export in the **`out/`** folder (also with `--webpack`).
+Preview the build locally with `npm run start` (port 3220).
+
+### Deployment
+
+Fully automated — **no local build required**:
+
+1. A push to `main` triggers the GitHub Actions workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+2. The action builds the static export in the cloud and publishes the `out/` folder to **GitHub Pages**.
+3. The custom domain is set via [`public/CNAME`](public/CNAME) (**selfcoder.de**); GitHub provisions HTTPS.
+
+You can also trigger it manually from the Actions tab (`workflow_dispatch`).
+
+### License
+
+MIT — see [LICENSE](LICENSE).
