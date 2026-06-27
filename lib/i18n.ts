@@ -64,7 +64,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophie",
     },
     stats: [
-      { value: 8, suffix: "", label: "Projekte" },
+      { value: 7, suffix: "", label: "Projekte" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Eigene Kontrolle" },
@@ -212,7 +212,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophy",
     },
     stats: [
-      { value: 8, suffix: "", label: "Projects" },
+      { value: 7, suffix: "", label: "Projects" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Full control" },
