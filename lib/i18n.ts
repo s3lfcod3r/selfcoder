@@ -154,7 +154,7 @@ export const translations: Record<Lang, Dict> = {
           description:
             "Ein eigener Android- und TV-App-Store nur für die Self-Projekte: Katalog auf GitHub Pages, automatische Updates, armv7 + armv8. Apps installieren, ohne Google.",
           stack: stack.selfstore,
-          status: "beta",
+          status: "live",
           accent: "mixed",
           metrics: [
             { label: "Plattform", value: "Android / TV" },
@@ -330,7 +330,7 @@ export const translations: Record<Lang, Dict> = {
           description:
             "Your own Android and TV app store, just for the Self projects: catalog hosted on GitHub Pages, automatic updates, armv7 + armv8. Install apps without Google.",
           stack: stack.selfstore,
-          status: "beta",
+          status: "live",
           accent: "mixed",
           metrics: [
             { label: "Platform", value: "Android / TV" },
