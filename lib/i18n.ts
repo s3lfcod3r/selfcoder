@@ -49,6 +49,7 @@ const stack = {
   selfstore: ["Kotlin", "HTML"],
   selfpooltracker: ["HTML", "JavaScript"],
   selfthreatmap: ["JavaScript", "Python"],
+  selfwg: ["Kotlin", "Android"],
 };
 
 export const translations: Record<Lang, Dict> = {
@@ -65,7 +66,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophie",
     },
     stats: [
-      { value: 8, suffix: "", label: "Projekte" },
+      { value: 9, suffix: "", label: "Projekte" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Eigene Kontrolle" },
@@ -188,6 +189,20 @@ export const translations: Record<Lang, Dict> = {
             { label: "Art", value: "Security-Karte" },
           ],
         },
+        {
+          slug: "selfwg",
+          name: "SelfWG",
+          tagline: "VPN, das nach dem IP-Wechsel weiterläuft",
+          description:
+            "Ein eigener Android-Client fürs WireGuard®-Protokoll mit Auto-Reconnect-Wächter: erkennt den täglichen Zwangs-IP-Wechsel des Heimanschlusses und baut den Tunnel mit frischer Server-IP neu auf. Mehrere Tunnel, Split-Tunnel nach App, Fingerabdruck-Schutz.",
+          stack: stack.selfwg,
+          status: "live",
+          accent: "teal",
+          metrics: [
+            { label: "Plattform", value: "Android" },
+            { label: "Art", value: "VPN-Client" },
+          ],
+        },
       ],
     },
     philosophy: {
@@ -227,7 +242,7 @@ export const translations: Record<Lang, Dict> = {
       ctaSecondary: "Philosophy",
     },
     stats: [
-      { value: 8, suffix: "", label: "Projects" },
+      { value: 9, suffix: "", label: "Projects" },
       { value: 100, suffix: "%", label: "Self-hosted" },
       { value: 100, suffix: "%", label: "Open Source" },
       { value: 24, suffix: "/7", label: "Full control" },
@@ -348,6 +363,20 @@ export const translations: Record<Lang, Dict> = {
           metrics: [
             { label: "Platform", value: "Docker" },
             { label: "Type", value: "Security map" },
+          ],
+        },
+        {
+          slug: "selfwg",
+          name: "SelfWG",
+          tagline: "A VPN that survives IP changes",
+          description:
+            "Your own Android client for the WireGuard® protocol with an auto-reconnect watchdog: it detects your home line's daily forced IP change and rebuilds the tunnel with the fresh server IP. Multiple tunnels, per-app split tunneling and fingerprint lock.",
+          stack: stack.selfwg,
+          status: "live",
+          accent: "teal",
+          metrics: [
+            { label: "Platform", value: "Android" },
+            { label: "Type", value: "VPN client" },
           ],
         },
       ],
