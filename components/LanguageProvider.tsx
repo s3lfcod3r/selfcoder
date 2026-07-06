@@ -1,7 +1,9 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import { translations, type Dict, type Lang } from "@/lib/i18n";
+import { translations, LANGS, type Dict, type Lang } from "@/lib/i18n";
+
+const CODES: string[] = LANGS.map((l) => l.code);
 
 type Ctx = { lang: Lang; setLang: (l: Lang) => void; t: Dict };
 
@@ -16,7 +18,12 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const saved = window.localStorage.getItem("lang");
-    if (saved === "de" || saved === "en") setLang(saved);
+    if (saved && CODES.includes(saved)) {
+      setLang(saved as Lang);
+      return;
+    }
+    const nav = (navigator.language || "").slice(0, 2).toLowerCase();
+    if (CODES.includes(nav)) setLang(nav as Lang);
   }, []);
 
   useEffect(() => {

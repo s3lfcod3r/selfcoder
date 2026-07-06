@@ -4,25 +4,23 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLang } from "./LanguageProvider";
-import type { Lang } from "@/lib/i18n";
+import { LANGS, type Lang } from "@/lib/i18n";
 
 function LangToggle() {
   const { lang, setLang } = useLang();
   return (
-    <div className="flex items-center rounded-full border border-[var(--color-line-strong)] p-0.5 text-xs font-medium">
-      {(["de", "en"] as Lang[]).map((l) => (
-        <button
-          key={l}
-          onClick={() => setLang(l)}
-          aria-pressed={lang === l}
-          className={`rounded-full px-2.5 py-1 uppercase tracking-wide transition-colors ${
-            lang === l ? "bg-teal text-[#04140f]" : "text-[var(--color-muted)] hover:text-ink"
-          }`}
-        >
-          {l}
-        </button>
+    <select
+      value={lang}
+      onChange={(e) => setLang(e.target.value as Lang)}
+      aria-label="Sprache / Language"
+      className="cursor-pointer rounded-full border border-[var(--color-line-strong)] bg-transparent px-3 py-1.5 text-xs font-medium text-ink outline-none transition-colors hover:border-teal focus:border-teal [&>option]:bg-[#0d1117] [&>option]:text-ink"
+    >
+      {LANGS.map((l) => (
+        <option key={l.code} value={l.code}>
+          {l.label}
+        </option>
       ))}
-    </div>
+    </select>
   );
 }
 
