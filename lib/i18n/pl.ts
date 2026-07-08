@@ -17,7 +17,7 @@ export const pl: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 10,
       "suffix": "",
       "label": "Projekty"
     },
@@ -240,6 +240,30 @@ export const pl: Dict = {
           {
             "label": "Typ",
             "value": "VPN client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "Twoja biblioteka multimediów w skrócie",
+        "description": "Warstwa analizy, monitorowania i jakości tylko do odczytu nad Twoimi bibliotekami (Emby, Jellyfin, Plex, foldery lokalne): kompletność, jakość techniczna, tagi i reguły, klasyfikacje wiekowe. Nigdy nie jest serwerem multimediów i nie zapisuje zwrotnie.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Dostęp",
+            "value": "Read-only"
+          },
+          {
+            "label": "Źródła",
+            "value": "Emby/Jellyfin/Plex"
           }
         ]
       }

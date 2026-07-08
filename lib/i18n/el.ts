@@ -17,7 +17,7 @@ export const el: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 10,
       "suffix": "",
       "label": "Έργα"
     },
@@ -240,6 +240,30 @@ export const el: Dict = {
           {
             "label": "Τύπος",
             "value": "VPN client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "Η βιβλιοθήκη πολυμέσων σου με μια ματιά",
+        "description": "Ένα επίπεδο ανάλυσης, παρακολούθησης και ποιότητας μόνο για ανάγνωση πάνω από τις βιβλιοθήκες σου (Emby, Jellyfin, Plex, τοπικοί φάκελοι): πληρότητα, τεχνική ποιότητα, ετικέτες & κανόνες, ηλικιακές διαβαθμίσεις. Ποτέ διακομιστής πολυμέσων, δεν γράφει ποτέ πίσω.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Πρόσβαση",
+            "value": "Read-only"
+          },
+          {
+            "label": "Πηγές",
+            "value": "Emby/Jellyfin/Plex"
           }
         ]
       }

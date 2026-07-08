@@ -17,7 +17,7 @@ export const cs: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 10,
       "suffix": "",
       "label": "Projekty"
     },
@@ -240,6 +240,30 @@ export const cs: Dict = {
           {
             "label": "Typ",
             "value": "VPN client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "Tvoje mediotéka na první pohled",
+        "description": "Analytická, monitorovací a kvalitativní vrstva pouze pro čtení nad tvými knihovnami (Emby, Jellyfin, Plex, místní složky): úplnost, technická kvalita, štítky a pravidla, věková hodnocení. Nikdy ne mediální server, nikdy nezapisuje zpět.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Přístup",
+            "value": "Read-only"
+          },
+          {
+            "label": "Zdroje",
+            "value": "Emby/Jellyfin/Plex"
           }
         ]
       }

@@ -17,7 +17,7 @@ export const sv: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 10,
       "suffix": "",
       "label": "Projekt"
     },
@@ -240,6 +240,30 @@ export const sv: Dict = {
           {
             "label": "Typ",
             "value": "VPN client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "Ditt mediabibliotek på en gång",
+        "description": "Ett skrivskyddat analys-, övervaknings- och kvalitetslager ovanpå dina bibliotek (Emby, Jellyfin, Plex, lokala mappar): fullständighet, teknisk kvalitet, taggar och regler, åldersgränser. Aldrig en mediaserver, skriver aldrig tillbaka.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Åtkomst",
+            "value": "Read-only"
+          },
+          {
+            "label": "Källor",
+            "value": "Emby/Jellyfin/Plex"
           }
         ]
       }
