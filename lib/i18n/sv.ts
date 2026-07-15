@@ -17,7 +17,7 @@ export const sv: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Projekt"
     },
@@ -264,6 +264,28 @@ export const sv: Dict = {
           {
             "label": "Källor",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Ditt klistermärkesalbum i koll",
+        "description": "En enkel tracker för VM 2026-albumet: bocka av klistermärken, håll koll på saknade och dubbletter och byt med vänner. Gratis, utan konto — i webbläsaren.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Plattform",
+            "value": "Web"
+          },
+          {
+            "label": "Typ",
+            "value": "Album"
           }
         ]
       }

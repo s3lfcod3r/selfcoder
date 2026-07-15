@@ -17,7 +17,7 @@ export const el: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Έργα"
     },
@@ -264,6 +264,28 @@ export const el: Dict = {
           {
             "label": "Πηγές",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Το άλμπουμ σου, υπό έλεγχο",
+        "description": "Ένα απλό εργαλείο για το άλμπουμ αυτοκόλλητων του Μουντιάλ 2026: τσέκαρε αυτοκόλλητα, παρακολούθησε όσα λείπουν και τα διπλά, και κάνε ανταλλαγές με φίλους. Δωρεάν, χωρίς λογαριασμό — στον browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Πλατφόρμα",
+            "value": "Web"
+          },
+          {
+            "label": "Τύπος",
+            "value": "Album"
           }
         ]
       }

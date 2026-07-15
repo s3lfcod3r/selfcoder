@@ -17,7 +17,7 @@ export const it: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Progetti"
     },
@@ -264,6 +264,28 @@ export const it: Dict = {
           {
             "label": "Sorgenti",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Il tuo album, sotto controllo",
+        "description": "Un semplice tracker per l'album dei Mondiali 2026: spunta le figurine, tieni d'occhio mancanti e doppioni e scambia con gli amici. Gratis, senza account — nel browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Piattaforma",
+            "value": "Web"
+          },
+          {
+            "label": "Tipo",
+            "value": "Album"
           }
         ]
       }

@@ -17,7 +17,7 @@ export const de: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Projekte"
     },
@@ -264,6 +264,28 @@ export const de: Dict = {
           {
             "label": "Quellen",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Dein Sammelalbum im Griff",
+        "description": "Ein einfacher Tracker fürs WM-2026-Sammelalbum: Sticker abhaken, Fehlende und Doppelte im Blick behalten und mit Freunden tauschen. Kostenlos, ohne Konto — läuft im Browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Plattform",
+            "value": "Web"
+          },
+          {
+            "label": "Art",
+            "value": "Album"
           }
         ]
       }

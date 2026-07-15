@@ -17,7 +17,7 @@ export const en: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Projects"
     },
@@ -264,6 +264,28 @@ export const en: Dict = {
           {
             "label": "Sources",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Your sticker album, sorted",
+        "description": "A simple tracker for the WM 2026 sticker album: tick off stickers, keep an eye on missing and duplicate ones, and trade with friends. Free, no account — runs in the browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Platform",
+            "value": "Web"
+          },
+          {
+            "label": "Type",
+            "value": "Album"
           }
         ]
       }

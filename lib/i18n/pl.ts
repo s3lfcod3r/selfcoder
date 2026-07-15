@@ -17,7 +17,7 @@ export const pl: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Projekty"
     },
@@ -264,6 +264,28 @@ export const pl: Dict = {
           {
             "label": "Źródła",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Twój album pod kontrolą",
+        "description": "Prosty tracker do albumu z naklejkami na MŚ 2026: odhaczaj naklejki, pilnuj brakujących i duplikatów oraz wymieniaj się z przyjaciółmi. Za darmo, bez konta — w przeglądarce.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Platforma",
+            "value": "Web"
+          },
+          {
+            "label": "Typ",
+            "value": "Album"
           }
         ]
       }

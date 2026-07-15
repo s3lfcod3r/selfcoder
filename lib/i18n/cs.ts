@@ -17,7 +17,7 @@ export const cs: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Projekty"
     },
@@ -264,6 +264,28 @@ export const cs: Dict = {
           {
             "label": "Zdroje",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Tvé album pod kontrolou",
+        "description": "Jednoduchý tracker pro album samolepek MS 2026: odškrtávej samolepky, hlídej si chybějící a duplicitní a vyměňuj si s přáteli. Zdarma, bez účtu — v prohlížeči.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Platforma",
+            "value": "Web"
+          },
+          {
+            "label": "Typ",
+            "value": "Album"
           }
         ]
       }

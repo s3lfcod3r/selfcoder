@@ -17,7 +17,7 @@ export const es: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Proyectos"
     },
@@ -264,6 +264,28 @@ export const es: Dict = {
           {
             "label": "Fuentes",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Tu álbum de cromos, controlado",
+        "description": "Un tracker sencillo para el álbum del Mundial 2026: marca tus cromos, controla los que faltan y los repes, e intercambia con amigos. Gratis, sin cuenta — en el navegador.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Plataforma",
+            "value": "Web"
+          },
+          {
+            "label": "Tipo",
+            "value": "Album"
           }
         ]
       }

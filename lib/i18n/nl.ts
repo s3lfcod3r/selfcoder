@@ -17,7 +17,7 @@ export const nl: Dict = {
   },
   "stats": [
     {
-      "value": 10,
+      "value": 11,
       "suffix": "",
       "label": "Projecten"
     },
@@ -264,6 +264,28 @@ export const nl: Dict = {
           {
             "label": "Bronnen",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "name": "SelfPanini",
+        "tagline": "Je stickeralbum onder controle",
+        "description": "Een eenvoudige tracker voor het WK 2026-stickeralbum: vink stickers af, houd ontbrekende en dubbele in de gaten en ruil met vrienden. Gratis, zonder account — in de browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Platform",
+            "value": "Web"
+          },
+          {
+            "label": "Type",
+            "value": "Album"
           }
         ]
       }
