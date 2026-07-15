@@ -14,6 +14,7 @@ export type Lang =
 
 export type ProjectItem = {
   slug: string;
+  url?: string;
   name: string;
   tagline: string;
   description: string;

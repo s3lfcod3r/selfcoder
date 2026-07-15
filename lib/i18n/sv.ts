@@ -179,6 +179,7 @@ export const sv: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "Din pool, alltid i det gröna",
         "description": "En webbläsarbaserad tracker för vattenkvalitet i din pool: pH, klor, redox och temperatur med trafikljusstatus och doseringsråd. Ingen server, inget moln — körs i webbläsaren och som app.",
@@ -269,6 +270,7 @@ export const sv: Dict = {
       },
       {
         "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
         "name": "SelfPanini",
         "tagline": "Ditt klistermärkesalbum i koll",
         "description": "En enkel tracker för VM 2026-albumet: bocka av klistermärken, håll koll på saknade och dubbletter och byt med vänner. Gratis, utan konto — i webbläsaren.",

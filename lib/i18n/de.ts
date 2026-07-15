@@ -179,6 +179,7 @@ export const de: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "Dein Pool, immer im grünen Bereich",
         "description": "Ein browserbasierter Wasserwert-Tracker für deinen Pool: pH, Chlor, Redox und Temperatur mit Ampel-Status und Dosierempfehlung. Kein Server, keine Cloud — läuft im Browser und als App.",
@@ -269,6 +270,7 @@ export const de: Dict = {
       },
       {
         "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
         "name": "SelfPanini",
         "tagline": "Dein Sammelalbum im Griff",
         "description": "Ein einfacher Tracker fürs WM-2026-Sammelalbum: Sticker abhaken, Fehlende und Doppelte im Blick behalten und mit Freunden tauschen. Kostenlos, ohne Konto — läuft im Browser.",

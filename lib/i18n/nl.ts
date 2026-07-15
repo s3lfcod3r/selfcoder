@@ -179,6 +179,7 @@ export const nl: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "Jouw zwembad, altijd in het groen",
         "description": "Een browsergebaseerde waterkwaliteitstracker voor je zwembad: pH, chloor, redox en temperatuur met stoplichtstatus en doseringsadvies. Geen server, geen cloud — draait in de browser en als app.",
@@ -269,6 +270,7 @@ export const nl: Dict = {
       },
       {
         "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
         "name": "SelfPanini",
         "tagline": "Je stickeralbum onder controle",
         "description": "Een eenvoudige tracker voor het WK 2026-stickeralbum: vink stickers af, houd ontbrekende en dubbele in de gaten en ruil met vrienden. Gratis, zonder account — in de browser.",

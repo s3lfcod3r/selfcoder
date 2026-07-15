@@ -179,6 +179,7 @@ export const fr: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "Ta piscine, toujours au vert",
         "description": "Un suivi de la qualité de l'eau de ta piscine dans le navigateur : pH, chlore, redox et température avec statut en feux tricolores et conseils de dosage. Sans serveur, sans cloud — tourne dans le navigateur et en application.",
@@ -269,6 +270,7 @@ export const fr: Dict = {
       },
       {
         "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
         "name": "SelfPanini",
         "tagline": "Ton album, bien en main",
         "description": "Un tracker simple pour l'album d'autocollants de la Coupe du monde 2026 : coche tes autocollants, garde un œil sur les manquants et les doubles, et échange avec tes amis. Gratuit, sans compte — dans le navigateur.",
