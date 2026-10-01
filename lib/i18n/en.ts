@@ -17,7 +17,7 @@ export const en: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 11,
       "suffix": "",
       "label": "Projects"
     },
@@ -179,6 +179,7 @@ export const en: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "Your pool, always in the green",
         "description": "A browser-based water-quality tracker for your pool: pH, chlorine, redox and temperature with traffic-light status and dosing advice. No server, no cloud — runs in the browser and as an app.",
@@ -240,6 +241,53 @@ export const en: Dict = {
           {
             "label": "Type",
             "value": "VPN client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "Your media library at a glance",
+        "description": "A read-only analysis, monitoring and quality layer over your libraries (Emby, Jellyfin, Plex, local folders): completeness, technical quality, tags & rules, age ratings. Never a media server, never writes back.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Access",
+            "value": "Read-only"
+          },
+          {
+            "label": "Sources",
+            "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
+        "name": "SelfPanini",
+        "tagline": "Your sticker album, sorted",
+        "description": "A simple tracker for the WM 2026 sticker album: tick off stickers, keep an eye on missing and duplicate ones, and trade with friends. Free, no account — runs in the browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Platform",
+            "value": "Web"
+          },
+          {
+            "label": "Type",
+            "value": "Album"
           }
         ]
       }

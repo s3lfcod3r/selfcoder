@@ -17,7 +17,7 @@ export const it: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 11,
       "suffix": "",
       "label": "Progetti"
     },
@@ -179,6 +179,7 @@ export const it: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "La tua piscina, sempre nel verde",
         "description": "Un tracker della qualità dell'acqua per la tua piscina, basato su browser: pH, cloro, redox e temperatura con stato a semaforo e consigli sul dosaggio. Niente server, niente cloud — gira nel browser e come app.",
@@ -240,6 +241,53 @@ export const it: Dict = {
           {
             "label": "Tipo",
             "value": "VPN client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "La tua libreria multimediale a colpo d'occhio",
+        "description": "Uno strato di analisi, monitoraggio e qualità in sola lettura sulle tue librerie (Emby, Jellyfin, Plex, cartelle locali): completezza, qualità tecnica, tag e regole, classificazioni per età. Mai un media server, non riscrive mai.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Accesso",
+            "value": "Read-only"
+          },
+          {
+            "label": "Sorgenti",
+            "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
+        "name": "SelfPanini",
+        "tagline": "Il tuo album, sotto controllo",
+        "description": "Un semplice tracker per l'album dei Mondiali 2026: spunta le figurine, tieni d'occhio mancanti e doppioni e scambia con gli amici. Gratis, senza account — nel browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Piattaforma",
+            "value": "Web"
+          },
+          {
+            "label": "Tipo",
+            "value": "Album"
           }
         ]
       }

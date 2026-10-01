@@ -17,7 +17,7 @@ export const de: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 11,
       "suffix": "",
       "label": "Projekte"
     },
@@ -179,6 +179,7 @@ export const de: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "Dein Pool, immer im grünen Bereich",
         "description": "Ein browserbasierter Wasserwert-Tracker für deinen Pool: pH, Chlor, Redox und Temperatur mit Ampel-Status und Dosierempfehlung. Kein Server, keine Cloud — läuft im Browser und als App.",
@@ -240,6 +241,53 @@ export const de: Dict = {
           {
             "label": "Art",
             "value": "VPN-Client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "Deine Mediathek auf einen Blick",
+        "description": "Eine read-only Analyse-, Monitoring- und Qualitätsschicht über deine Mediatheken (Emby, Jellyfin, Plex, lokale Ordner): Vollständigkeit, technische Qualität, Tags & Regeln, FSK-Freigaben. Kein Medienserver, schreibt nie zurück.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Zugriff",
+            "value": "Read-only"
+          },
+          {
+            "label": "Quellen",
+            "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
+        "name": "SelfPanini",
+        "tagline": "Dein Sammelalbum im Griff",
+        "description": "Ein einfacher Tracker fürs WM-2026-Sammelalbum: Sticker abhaken, Fehlende und Doppelte im Blick behalten und mit Freunden tauschen. Kostenlos, ohne Konto — läuft im Browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Plattform",
+            "value": "Web"
+          },
+          {
+            "label": "Art",
+            "value": "Album"
           }
         ]
       }

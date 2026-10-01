@@ -53,10 +53,24 @@ export const projects: Project[] = [
       { label: "Fokus", value: "Self-hosted" },
     ],
   },
+  {
+    slug: "selfmediahub",
+    name: "SelfMediaHub",
+    tagline: "Deine Mediathek auf einen Blick",
+    description:
+      "Eine read-only Analyse-, Monitoring- und Qualitätsschicht über bestehende Mediatheken (Emby, Jellyfin, Plex, lokale Ordner). Kein Medienserver, schreibt nie zurück — mit Vollständigkeits-Check, Technik-Analyse, Tags & Regel-Engine und FSK-Freigaben.",
+    stack: ["FastAPI", "Python", "SQLite", "Docker"],
+    status: "live",
+    accent: "teal",
+    metrics: [
+      { label: "Zugriff", value: "Read-only" },
+      { label: "Quellen", value: "Emby/Jellyfin/Plex" },
+    ],
+  },
 ];
 
 export const stats = [
-  { value: 3, suffix: "", label: "Live-Projekte" },
+  { value: 4, suffix: "", label: "Live-Projekte" },
   { value: 100, suffix: "%", label: "Self-hosted" },
   { value: 0, suffix: "", label: "Vendor Lock-in" },
   { value: 24, suffix: "/7", label: "Eigene Kontrolle" },

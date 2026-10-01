@@ -17,7 +17,7 @@ export const fr: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 11,
       "suffix": "",
       "label": "Projets"
     },
@@ -179,6 +179,7 @@ export const fr: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "Ta piscine, toujours au vert",
         "description": "Un suivi de la qualité de l'eau de ta piscine dans le navigateur : pH, chlore, redox et température avec statut en feux tricolores et conseils de dosage. Sans serveur, sans cloud — tourne dans le navigateur et en application.",
@@ -240,6 +241,53 @@ export const fr: Dict = {
           {
             "label": "Type",
             "value": "VPN client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "Ta médiathèque en un coup d'œil",
+        "description": "Une couche d'analyse, de supervision et de qualité en lecture seule pour tes bibliothèques (Emby, Jellyfin, Plex, dossiers locaux) : complétude, qualité technique, tags & règles, classifications d'âge. Jamais un serveur multimédia, n'écrit jamais en retour.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Accès",
+            "value": "Read-only"
+          },
+          {
+            "label": "Sources",
+            "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
+        "name": "SelfPanini",
+        "tagline": "Ton album, bien en main",
+        "description": "Un tracker simple pour l'album d'autocollants de la Coupe du monde 2026 : coche tes autocollants, garde un œil sur les manquants et les doubles, et échange avec tes amis. Gratuit, sans compte — dans le navigateur.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Plateforme",
+            "value": "Web"
+          },
+          {
+            "label": "Type",
+            "value": "Album"
           }
         ]
       }

@@ -17,7 +17,7 @@ export const el: Dict = {
   },
   "stats": [
     {
-      "value": 9,
+      "value": 11,
       "suffix": "",
       "label": "Έργα"
     },
@@ -179,6 +179,7 @@ export const el: Dict = {
       },
       {
         "slug": "selfpooltracker",
+        "url": "https://pool.selfcoder.de",
         "name": "SelfPoolTracker",
         "tagline": "Η πισίνα σου, πάντα στο πράσινο",
         "description": "Ένας tracker ποιότητας νερού μέσα στον browser για την πισίνα σου: pH, χλώριο, redox και θερμοκρασία με ένδειξη φαναριού και συμβουλές δοσολογίας. Χωρίς server, χωρίς cloud — τρέχει στον browser και ως εφαρμογή.",
@@ -240,6 +241,53 @@ export const el: Dict = {
           {
             "label": "Τύπος",
             "value": "VPN client"
+          }
+        ]
+      },
+      {
+        "slug": "selfmediahub",
+        "name": "SelfMediaHub",
+        "tagline": "Η βιβλιοθήκη πολυμέσων σου με μια ματιά",
+        "description": "Ένα επίπεδο ανάλυσης, παρακολούθησης και ποιότητας μόνο για ανάγνωση πάνω από τις βιβλιοθήκες σου (Emby, Jellyfin, Plex, τοπικοί φάκελοι): πληρότητα, τεχνική ποιότητα, ετικέτες & κανόνες, ηλικιακές διαβαθμίσεις. Ποτέ διακομιστής πολυμέσων, δεν γράφει ποτέ πίσω.",
+        "stack": [
+          "FastAPI",
+          "Python",
+          "SQLite",
+          "Docker"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Πρόσβαση",
+            "value": "Read-only"
+          },
+          {
+            "label": "Πηγές",
+            "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "selfpanini-web",
+        "url": "https://panini.selfcoder.de",
+        "name": "SelfPanini",
+        "tagline": "Το άλμπουμ σου, υπό έλεγχο",
+        "description": "Ένα απλό εργαλείο για το άλμπουμ αυτοκόλλητων του Μουντιάλ 2026: τσέκαρε αυτοκόλλητα, παρακολούθησε όσα λείπουν και τα διπλά, και κάνε ανταλλαγές με φίλους. Δωρεάν, χωρίς λογαριασμό — στον browser.",
+        "stack": [
+          "HTML",
+          "JavaScript"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Πλατφόρμα",
+            "value": "Web"
+          },
+          {
+            "label": "Τύπος",
+            "value": "Album"
           }
         ]
       }
