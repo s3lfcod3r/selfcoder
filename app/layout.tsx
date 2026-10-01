@@ -42,6 +42,12 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="de" className={`${display.variable} ${body.variable} ${mono.variable} ${wordmark.variable}`}>
+      <head>
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;"
+        />
+      </head>
       <body className="antialiased">
         <LanguageProvider>
           <SmoothScroll>{children}</SmoothScroll>
