@@ -46,6 +46,9 @@ export default function Footer() {
         <div className="mt-8 flex flex-col items-start justify-between gap-3 border-t border-[var(--color-line)] pt-6 text-xs text-[var(--color-faint)] sm:flex-row sm:items-center">
           <span className="flex items-center gap-3">
             © 2026 SelfCoder · selfcoder.de
+            <a href="/impressum" className="transition-colors hover:text-ink">
+              Impressum
+            </a>
             <a href="/datenschutz" className="transition-colors hover:text-ink">
               Datenschutz
             </a>
