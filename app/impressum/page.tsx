@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 
 /** Impressum (§ 5 TDDG / § 7 UWG). */
 const VERANTWORTLICHER = "S. Schmidt";
-const EMAIL = "info@selfcoder.de";
 // Straße, Hausnummer, PLZ, Ort: vom Betreiber eintragen — nicht im Repo vorhanden.
 const ADRESS_PLACEHOLDER = "[Straße und Hausnummer eintragen]";
 const PLZ_ORT_PLACEHOLDER = "[PLZ und Ort eintragen]";
@@ -51,7 +50,7 @@ export default function Impressum() {
           <h2>2. Kontakt</h2>
           <ul>
             <li>
-              <strong>E-Mail:</strong> {EMAIL}
+              <strong>E-Mail:</strong> info <span aria-hidden="true">(at)</span> selfcoder.de
             </li>
           </ul>
         </section>
