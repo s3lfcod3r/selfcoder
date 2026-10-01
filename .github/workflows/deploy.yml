@@ -1,14 +1,14 @@
 name: Deploy to GitHub Pages
 
-# Bei jedem Push auf main: in der Cloud bauen und auf GitHub Pages veroeffentlichen.
-# Kein lokaler Build noetig.
+# Bei jedem Push auf main: in der Cloud bauen und auf GitHub Pages veröffentlichen.
+# Kein lokaler Build nötig.
 
 on:
   push:
     branches: [main]
-  workflow_dispatch: # erlaubt manuelles Ausloesen ueber den Actions-Tab
+  workflow_dispatch: # erlaubt manuelles Auslösen über den Actions-Tab
 
-# Rechte, die der GITHUB_TOKEN fuer das Pages-Deployment braucht.
+# Rechte, die der GITHUB_TOKEN für das Pages-Deployment braucht.
 permissions:
   contents: read
   pages: write
