@@ -178,29 +178,6 @@ export const sv: Dict = {
         ]
       },
       {
-        "slug": "selfpooltracker",
-        "url": "https://pool.selfcoder.de",
-        "name": "SelfPoolTracker",
-        "tagline": "Din pool, alltid i det gröna",
-        "description": "En webbläsarbaserad tracker för vattenkvalitet i din pool: pH, klor, redox och temperatur med trafikljusstatus och doseringsråd. Ingen server, inget moln — körs i webbläsaren och som app.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Plattform",
-            "value": "Web / Android"
-          },
-          {
-            "label": "Typ",
-            "value": "Tracker"
-          }
-        ]
-      },
-      {
         "slug": "selfthreatmap",
         "name": "SelfThreatMap",
         "tagline": "Attacker live på världskartan",
@@ -265,29 +242,6 @@ export const sv: Dict = {
           {
             "label": "Källor",
             "value": "Emby/Jellyfin/Plex"
-          }
-        ]
-      },
-      {
-        "slug": "selfpanini-web",
-        "url": "https://panini.selfcoder.de",
-        "name": "SelfPanini",
-        "tagline": "Ditt klistermärkesalbum i koll",
-        "description": "En enkel tracker för VM 2026-albumet: bocka av klistermärken, håll koll på saknade och dubbletter och byt med vänner. Gratis, utan konto — i webbläsaren.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Plattform",
-            "value": "Web"
-          },
-          {
-            "label": "Typ",
-            "value": "Album"
           }
         ]
       }

@@ -178,29 +178,6 @@ export const el: Dict = {
         ]
       },
       {
-        "slug": "selfpooltracker",
-        "url": "https://pool.selfcoder.de",
-        "name": "SelfPoolTracker",
-        "tagline": "Η πισίνα σου, πάντα στο πράσινο",
-        "description": "Ένας tracker ποιότητας νερού μέσα στον browser για την πισίνα σου: pH, χλώριο, redox και θερμοκρασία με ένδειξη φαναριού και συμβουλές δοσολογίας. Χωρίς server, χωρίς cloud — τρέχει στον browser και ως εφαρμογή.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Πλατφόρμα",
-            "value": "Web / Android"
-          },
-          {
-            "label": "Τύπος",
-            "value": "Tracker"
-          }
-        ]
-      },
-      {
         "slug": "selfthreatmap",
         "name": "SelfThreatMap",
         "tagline": "Οι επιθέσεις live στον παγκόσμιο χάρτη",
@@ -265,29 +242,6 @@ export const el: Dict = {
           {
             "label": "Πηγές",
             "value": "Emby/Jellyfin/Plex"
-          }
-        ]
-      },
-      {
-        "slug": "selfpanini-web",
-        "url": "https://panini.selfcoder.de",
-        "name": "SelfPanini",
-        "tagline": "Το άλμπουμ σου, υπό έλεγχο",
-        "description": "Ένα απλό εργαλείο για το άλμπουμ αυτοκόλλητων του Μουντιάλ 2026: τσέκαρε αυτοκόλλητα, παρακολούθησε όσα λείπουν και τα διπλά, και κάνε ανταλλαγές με φίλους. Δωρεάν, χωρίς λογαριασμό — στον browser.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Πλατφόρμα",
-            "value": "Web"
-          },
-          {
-            "label": "Τύπος",
-            "value": "Album"
           }
         ]
       }

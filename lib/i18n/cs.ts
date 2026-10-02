@@ -178,29 +178,6 @@ export const cs: Dict = {
         ]
       },
       {
-        "slug": "selfpooltracker",
-        "url": "https://pool.selfcoder.de",
-        "name": "SelfPoolTracker",
-        "tagline": "Tvůj bazén, vždy v zeleném",
-        "description": "Sledování kvality vody tvého bazénu v prohlížeči: pH, chlor, redox a teplota se semaforovým stavem a doporučením dávkování. Žádný server, žádný cloud — běží v prohlížeči i jako aplikace.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Platforma",
-            "value": "Web / Android"
-          },
-          {
-            "label": "Typ",
-            "value": "Tracker"
-          }
-        ]
-      },
-      {
         "slug": "selfthreatmap",
         "name": "SelfThreatMap",
         "tagline": "Útoky živě na mapě světa",
@@ -265,29 +242,6 @@ export const cs: Dict = {
           {
             "label": "Zdroje",
             "value": "Emby/Jellyfin/Plex"
-          }
-        ]
-      },
-      {
-        "slug": "selfpanini-web",
-        "url": "https://panini.selfcoder.de",
-        "name": "SelfPanini",
-        "tagline": "Tvé album pod kontrolou",
-        "description": "Jednoduchý tracker pro album samolepek MS 2026: odškrtávej samolepky, hlídej si chybějící a duplicitní a vyměňuj si s přáteli. Zdarma, bez účtu — v prohlížeči.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Platforma",
-            "value": "Web"
-          },
-          {
-            "label": "Typ",
-            "value": "Album"
           }
         ]
       }

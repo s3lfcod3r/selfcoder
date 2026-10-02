@@ -178,29 +178,6 @@ export const es: Dict = {
         ]
       },
       {
-        "slug": "selfpooltracker",
-        "url": "https://pool.selfcoder.de",
-        "name": "SelfPoolTracker",
-        "tagline": "Tu piscina, siempre en verde",
-        "description": "Un rastreador de calidad del agua para tu piscina, basado en navegador: pH, cloro, redox y temperatura con estado tipo semáforo y consejos de dosificación. Sin servidor, sin nube: funciona en el navegador y como app.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Plataforma",
-            "value": "Web / Android"
-          },
-          {
-            "label": "Tipo",
-            "value": "Tracker"
-          }
-        ]
-      },
-      {
         "slug": "selfthreatmap",
         "name": "SelfThreatMap",
         "tagline": "Ataques en vivo en el mapa mundial",
@@ -265,29 +242,6 @@ export const es: Dict = {
           {
             "label": "Fuentes",
             "value": "Emby/Jellyfin/Plex"
-          }
-        ]
-      },
-      {
-        "slug": "selfpanini-web",
-        "url": "https://panini.selfcoder.de",
-        "name": "SelfPanini",
-        "tagline": "Tu álbum de cromos, controlado",
-        "description": "Un tracker sencillo para el álbum del Mundial 2026: marca tus cromos, controla los que faltan y los repes, e intercambia con amigos. Gratis, sin cuenta — en el navegador.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Plataforma",
-            "value": "Web"
-          },
-          {
-            "label": "Tipo",
-            "value": "Album"
           }
         ]
       }

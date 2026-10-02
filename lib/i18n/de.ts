@@ -17,7 +17,7 @@ export const de: Dict = {
   },
   "stats": [
     {
-      "value": 11,
+      "value": 9,
       "suffix": "",
       "label": "Projekte"
     },
@@ -178,29 +178,6 @@ export const de: Dict = {
         ]
       },
       {
-        "slug": "selfpooltracker",
-        "url": "https://pool.selfcoder.de",
-        "name": "SelfPoolTracker",
-        "tagline": "Dein Pool, immer im grünen Bereich",
-        "description": "Ein browserbasierter Wasserwert-Tracker für deinen Pool: pH, Chlor, Redox und Temperatur mit Ampel-Status und Dosierempfehlung. Kein Server, keine Cloud — läuft im Browser und als App.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Plattform",
-            "value": "Web / Android"
-          },
-          {
-            "label": "Art",
-            "value": "Tracker"
-          }
-        ]
-      },
-      {
         "slug": "selfthreatmap",
         "name": "SelfThreatMap",
         "tagline": "Angriffe live auf der Weltkarte",
@@ -265,29 +242,6 @@ export const de: Dict = {
           {
             "label": "Quellen",
             "value": "Emby/Jellyfin/Plex"
-          }
-        ]
-      },
-      {
-        "slug": "selfpanini-web",
-        "url": "https://panini.selfcoder.de",
-        "name": "SelfPanini",
-        "tagline": "Dein Sammelalbum im Griff",
-        "description": "Ein einfacher Tracker fürs WM-2026-Sammelalbum: Sticker abhaken, Fehlende und Doppelte im Blick behalten und mit Freunden tauschen. Kostenlos, ohne Konto — läuft im Browser.",
-        "stack": [
-          "HTML",
-          "JavaScript"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Plattform",
-            "value": "Web"
-          },
-          {
-            "label": "Art",
-            "value": "Album"
           }
         ]
       }
