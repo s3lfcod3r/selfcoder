@@ -1,5 +1,29 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# AGENTS.md — selfcoder
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+Kurze Orientierung fuer KI-Assistenten (Bonsai/Claude). **Diese Datei zuerst lesen, nicht die grosse README.**
+Zum Finden: `rg -n "BEGRIFF"`. Fuer Symbole: Serena `get_symbols_overview`/`find_symbol`. Grosse Dateien nur zeilenweise (`sed -n`).
+
+## Typ & Stack
+
+- Node/JS-TS: `package.json` (react, next)
+
+## Bauen / Testen / Starten
+
+```bash
+npm run dev   # next dev --webpack --port 3220
+npm run build   # next build --webpack
+npm run lint   # eslint
+npm run start   # next start --port 3220
+```
+
+## Struktur (oberste Ebenen)
+
+- `.github/` — CI/Workflows
+- `Logo/`
+- `app/` — App-Code
+- `components/`
+- `lib/`
+- `public/` — statische Dateien
+
+---
+*Automatisch erzeugt als Navigationshilfe. Bei Bedarf von Hand praeziser machen.*
