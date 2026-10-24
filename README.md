@@ -6,11 +6,11 @@
 *Entwickler-Portfolio für SelfCoder — eine Familie self-hosted, quelloffener Tools.*
 
 [![Build](https://github.com/s3lfcod3r/selfcoder/actions/workflows/deploy.yml/badge.svg)](https://github.com/s3lfcod3r/selfcoder/actions/workflows/deploy.yml)
-[![Version 0.1.0](https://img.shields.io/badge/Version-0.1.0-33A78C.svg)](package.json)
-[![License: MIT](https://img.shields.io/badge/License-MIT-8A9CAA.svg)](LICENSE)
-[![Web](https://img.shields.io/badge/Web-Next.js%2016%20+%20React%2019-43D3AD.svg)](README.md)
-[![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-6F95AD.svg)](https://github.com/s3lfcod3r/selfcoder/actions/workflows/deploy.yml)
-[![Live](https://img.shields.io/badge/live-selfcoder.de-0ea5e9.svg)](https://selfcoder.de)
+![Version](https://img.shields.io/badge/version-0.1.0-33A78C)
+[![License](https://img.shields.io/badge/license-MIT-8A9CAA)](LICENSE)
+![Web](https://img.shields.io/badge/web-Next.js%2016%20%2B%20React%2019-43D3AD)
+![Deploy](https://img.shields.io/badge/deploy-GitHub%20Pages-6F95AD)
+[![Live](https://img.shields.io/badge/live-selfcoder.de-1F7763)](https://selfcoder.de)
 
 **[🇬🇧 English](#-english) · [🇩🇪 Deutsch](#-deutsch)**
 
@@ -19,6 +19,7 @@
 </div>
 
 ---
+
 <a id="-english"></a>
 ## 🇬🇧 English
 
@@ -35,6 +36,7 @@ Source of the portfolio website [selfcoder.de](https://selfcoder.de) — a dark,
 - 3D / WebGL scenes (three.js + React Three Fiber)
 - Smooth scrolling (Lenis)
 - Project overview of the Self family
+- Bilingual site (German / English)
 - Static export for GitHub Pages
 
 <a id="en-architecture"></a>
@@ -42,7 +44,7 @@ Source of the portfolio website [selfcoder.de](https://selfcoder.de) — a dark,
 
 - `app/` — Next.js App Router pages
 - `components/` — reusable UI components
-- `lib/` — helpers and utilities
+- `lib/` — project data `projects.ts`) and translations `i18n/`)
 - `public/` — static assets (logo, CNAME)
 - Static export to `out/` via `next build --webpack`
 
@@ -122,6 +124,7 @@ Das ist die Quelle der Portfolio-Website [selfcoder.de](https://selfcoder.de) �
 - 3D / WebGL-Szenen (three.js + React Three Fiber)
 - Smooth Scrolling (Lenis)
 - Projektübersicht der Self-Familie
+- Zweisprachige Seite (Deutsch / Englisch)
 - Statischer Export für GitHub Pages
 
 <a id="de-architektur"></a>
@@ -129,7 +132,7 @@ Das ist die Quelle der Portfolio-Website [selfcoder.de](https://selfcoder.de) �
 
 - `app/` — Seiten der Next.js App Router
 - `components/` — wiederverwendbare UI-Komponenten
-- `lib/` — Helfer und Utilities
+- `lib/` — Projektdaten `projects.ts`) und Übersetzungen `i18n/`)
 - `public/` — statische Assets (Logo, CNAME)
 - Statischer Export nach `out/` über `next build --webpack`
 
