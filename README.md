@@ -44,7 +44,7 @@ Source of the portfolio website [selfcoder.de](https://selfcoder.de) — a dark,
 
 - `app/` — Next.js App Router pages
 - `components/` — reusable UI components
-- `lib/` — project data `projects.ts`) and translations `i18n/`)
+- `lib/` — project data (`projects.ts`) and translations (`i18n/`)
 - `public/` — static assets (logo, CNAME)
 - Static export to `out/` via `next build --webpack`
 
@@ -132,7 +132,7 @@ Das ist die Quelle der Portfolio-Website [selfcoder.de](https://selfcoder.de) �
 
 - `app/` — Seiten der Next.js App Router
 - `components/` — wiederverwendbare UI-Komponenten
-- `lib/` — Projektdaten `projects.ts`) und Übersetzungen `i18n/`)
+- `lib/` — Projektdaten (`projects.ts`) und Übersetzungen (`i18n/`)
 - `public/` — statische Assets (Logo, CNAME)
 - Statischer Export nach `out/` über `next build --webpack`
 
