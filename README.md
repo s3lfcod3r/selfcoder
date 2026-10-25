@@ -2,12 +2,12 @@
 
 <img src="public/logo-wide.png" alt="SelfCoder" width="240" />
 
-**Developer portfolio for SelfCoder — a family of self-hosted, open-source tools.**<br>
-*Entwickler-Portfolio für SelfCoder — eine Familie self-hosted, quelloffener Tools.*
+**Developer portfolio for SelfCoder — a family of self-hosted tools.**<br>
+*Entwickler-Portfolio für SelfCoder — eine Familie selbst gehosteter Tools.*
 
 [![Build](https://github.com/s3lfcod3r/selfcoder/actions/workflows/deploy.yml/badge.svg)](https://github.com/s3lfcod3r/selfcoder/actions/workflows/deploy.yml)
 ![Version](https://img.shields.io/badge/version-0.1.0-33A78C)
-[![License](https://img.shields.io/badge/license-MIT-8A9CAA)](LICENSE)
+[![License](https://img.shields.io/badge/license-All%20rights%20reserved-8A9CAA)](LICENSE)
 ![Web](https://img.shields.io/badge/web-Next.js%2016%20%2B%20React%2019-43D3AD)
 ![Deploy](https://img.shields.io/badge/deploy-GitHub%20Pages-6F95AD)
 [![Live](https://img.shields.io/badge/live-selfcoder.de-1F7763)](https://selfcoder.de)
@@ -104,7 +104,13 @@ Preview the build locally with `npm run start` (port 3220).
 <a id="en-license"></a>
 ### 📄 License
 
-MIT — see [LICENSE](LICENSE).
+**🇬🇧 All rights reserved.** © 2026 s3lfcod3r / SelfCoder
+
+You may install and use the software **privately and non-commercially** (e.g. in your home lab, via Docker or Unraid).
+
+**Not permitted without written permission:** commercial use · copying · modifying · redistributing · incorporating into other projects (including closed source) · selling.
+
+Details: [LICENSE](LICENSE)
 
 ---
 
@@ -192,4 +198,10 @@ Lokales Vorschau-Hosting des Builds: `npm run start` (Port 3220).
 <a id="de-lizenz"></a>
 ### 📄 Lizenz
 
-MIT — siehe [LICENSE](LICENSE).
+**🇩🇪 Alle Rechte vorbehalten.** © 2026 s3lfcod3r / SelfCoder
+
+Du darfst die Software **privat und nicht-kommerziell** installieren und benutzen (z. B. im Homelab, über Docker oder Unraid).
+
+**Ohne schriftliche Erlaubnis verboten:** kommerzielle Nutzung · Kopieren · Verändern · Weitergeben · Einbauen in eigene Projekte (auch Closed Source) · Verkaufen.
+
+Details: [LICENSE](LICENSE)
