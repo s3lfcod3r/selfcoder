@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/logo-wide.png" alt="SelfCoder logo" width="240" />
+<img src="assets/logo.png" alt="SelfCoder logo" width="240" />
 
 **Developer portfolio for SelfCoder — a family of self-hosted tools.**<br>
 *Entwickler-Portfolio für SelfCoder — eine Familie selbstgehosteter Tools.*
