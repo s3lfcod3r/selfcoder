@@ -17,7 +17,7 @@ export const cs: Dict = {
   },
   "stats": [
     {
-      "value": 11,
+      "value": 12,
       "suffix": "",
       "label": "Projekty"
     },
@@ -242,6 +242,29 @@ export const cs: Dict = {
           {
             "label": "Zdroje",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "SelfBike",
+        "url": "https://bike.selfcoder.de",
+        "name": "SelfBike",
+        "tagline": "Tvoje elektrokolo, vyčtené",
+        "description": "Vyčte tvoje vlastní elektrokolo Bosch Smart System přes USB přímo v prohlížeči — motor, stav baterie, nabíjecí cykly, paměť chyb — a bezpečně změní několik nastavení, se zálohou a zpětným čtením. Bez instalace, bez účtu.",
+        "stack": [
+          "JavaScript",
+          "WebUSB"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Platforma",
+            "value": "Prohlížeč"
+          },
+          {
+            "label": "Typ",
+            "value": "Nástroj pro e-kolo"
           }
         ]
       }

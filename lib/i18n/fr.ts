@@ -17,7 +17,7 @@ export const fr: Dict = {
   },
   "stats": [
     {
-      "value": 11,
+      "value": 12,
       "suffix": "",
       "label": "Projets"
     },
@@ -242,6 +242,29 @@ export const fr: Dict = {
           {
             "label": "Sources",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "SelfBike",
+        "url": "https://bike.selfcoder.de",
+        "name": "SelfBike",
+        "tagline": "Ton vélo électrique, lu de A à Z",
+        "description": "Lit ton propre vélo électrique Bosch Smart System par USB directement dans le navigateur — moteur, santé de la batterie, cycles de charge, mémoire des défauts — et modifie quelques réglages en toute sécurité, avec sauvegarde et relecture. Sans installation, sans compte.",
+        "stack": [
+          "JavaScript",
+          "WebUSB"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Plateforme",
+            "value": "Navigateur"
+          },
+          {
+            "label": "Type",
+            "value": "Outil e-bike"
           }
         ]
       }

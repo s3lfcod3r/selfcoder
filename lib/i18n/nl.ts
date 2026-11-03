@@ -17,7 +17,7 @@ export const nl: Dict = {
   },
   "stats": [
     {
-      "value": 11,
+      "value": 12,
       "suffix": "",
       "label": "Projecten"
     },
@@ -242,6 +242,29 @@ export const nl: Dict = {
           {
             "label": "Bronnen",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "SelfBike",
+        "url": "https://bike.selfcoder.de",
+        "name": "SelfBike",
+        "tagline": "Je e-bike, uitgelezen",
+        "description": "Leest je eigen Bosch Smart System e-bike via USB direct in de browser uit — motor, accuconditie, laadcycli, foutgeheugen — en wijzigt een paar instellingen veilig, met back-up en teruglezen. Geen installatie, geen account.",
+        "stack": [
+          "JavaScript",
+          "WebUSB"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Platform",
+            "value": "Browser"
+          },
+          {
+            "label": "Type",
+            "value": "E-bike-tool"
           }
         ]
       }

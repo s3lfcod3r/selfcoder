@@ -17,7 +17,7 @@ export const da: Dict = {
   },
   "stats": [
     {
-      "value": 11,
+      "value": 12,
       "suffix": "",
       "label": "Projekter"
     },
@@ -242,6 +242,29 @@ export const da: Dict = {
           {
             "label": "Kilder",
             "value": "Emby/Jellyfin/Plex"
+          }
+        ]
+      },
+      {
+        "slug": "SelfBike",
+        "url": "https://bike.selfcoder.de",
+        "name": "SelfBike",
+        "tagline": "Din elcykel, aflæst",
+        "description": "Aflæser din egen Bosch Smart System-elcykel via USB direkte i browseren — motor, batteritilstand, ladecyklusser, fejlhukommelse — og ændrer nogle få indstillinger sikkert, med backup og genlæsning. Ingen installation, ingen konto.",
+        "stack": [
+          "JavaScript",
+          "WebUSB"
+        ],
+        "status": "live",
+        "accent": "teal",
+        "metrics": [
+          {
+            "label": "Platform",
+            "value": "Browser"
+          },
+          {
+            "label": "Type",
+            "value": "Elcykelværktøj"
           }
         ]
       }
