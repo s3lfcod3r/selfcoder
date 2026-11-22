@@ -42,7 +42,18 @@ export default function Impressum() {
 
         <section>
           <h2>Kontakt</h2>
-          <p>E-Mail: info(at)selfcoder.de</p>
+          <p>
+            E-Mail: info(at)selfcoder.de
+            <br />
+            Zweiter Kontaktweg:{" "}
+            <a
+              href="https://mein.online-impressum.de/selfcoder/#zweiterkontaktweg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kontaktformular
+            </a>
+          </p>
         </section>
 
         <section>
