@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 /** Datenschutzerklärung (DSGVO Art. 13). Hosting via GitHub Pages (GitHub Inc., USA). */
-const VERANTWORTLICHER_NAME = "S. Schmidt";
+const VERANTWORTLICHER_NAME = "Sven Schmidt";
 
 export default function Datenschutz() {
   return (
@@ -36,9 +36,18 @@ export default function Datenschutz() {
           <h2>1. Verantwortlicher</h2>
           <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
           <p>
-            {VERANTWORTLICHER_NAME}
+            Selfcoder — {VERANTWORTLICHER_NAME}
+            <br />
+            c/o Online-Impressum 13327, Europaring&nbsp;90, 53757 Sankt&nbsp;Augustin
             <br />
             E-Mail: info(at)selfcoder.de
+          </p>
+          <p>
+            Vollständige Anbieterkennzeichnung im{" "}
+            <Link href="/impressum" className="underline hover:text-ink">
+              Impressum
+            </Link>
+            .
           </p>
         </section>
 
