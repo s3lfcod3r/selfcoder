@@ -25,9 +25,9 @@
 
 ## 🇬🇧 English
 
-Source of the portfolio website [selfcoder.de](https://selfcoder.de) — a dark, animated one-page site that showcases the Self projects (SelfStream, SelfArchiver, SelfDashboard, and more). Built as a static export and hosted for free on GitHub Pages. It is a showcase, not an app: no backend, no login, no data storage.
+Source of the portfolio website [selfcoder.de](https://selfcoder.de) — a dark, animated one-page site that showcases the Self projects (SelfArchiver, SelfDashboard, and more). Built as a static export and hosted for free on GitHub Pages. It is a showcase, not an app: no backend, no login, no data storage.
 
-Part of the **Self** family (SelfMailer, SelfStream, SelfArchiver, SelfDashboard …) — same design system, same style.
+Part of the **Self** family (SelfMailer, SelfArchiver, SelfDashboard …) — same design system, same style.
 
 > **TL;DR** — Next.js static export · 12 languages · 3D / WebGL · GitHub Pages · selfcoder.de
 
@@ -154,9 +154,9 @@ npm run lint
 
 ## 🇩🇪 Deutsch
 
-Das ist die Quelle der Portfolio-Website [selfcoder.de](https://selfcoder.de) — eine dunkle, animierte One-Page-Seite, die die Self-Projekte (SelfStream, SelfArchiver, SelfDashboard u. a.) vorstellt. Statisch gebaut und kostenlos über GitHub Pages gehostet. Sie ist ein Schaufenster, keine App: kein Backend, keine Anmeldung, keine Datenspeicherung.
+Das ist die Quelle der Portfolio-Website [selfcoder.de](https://selfcoder.de) — eine dunkle, animierte One-Page-Seite, die die Self-Projekte (SelfArchiver, SelfDashboard u. a.) vorstellt. Statisch gebaut und kostenlos über GitHub Pages gehostet. Sie ist ein Schaufenster, keine App: kein Backend, keine Anmeldung, keine Datenspeicherung.
 
-Teil der **Self**-Familie (SelfMailer, SelfStream, SelfArchiver, SelfDashboard …) — gleiches Design-System, gleicher Stil.
+Teil der **Self**-Familie (SelfMailer, SelfArchiver, SelfDashboard …) — gleiches Design-System, gleicher Stil.
 
 > **Kurz** — statischer Next.js-Export · 12 Sprachen · 3D / WebGL · GitHub Pages · selfcoder.de
 

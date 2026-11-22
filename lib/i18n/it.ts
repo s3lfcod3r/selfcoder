@@ -134,28 +134,6 @@ export const it: Dict = {
         ]
       },
       {
-        "slug": "selfstream",
-        "name": "SelfStream",
-        "tagline": "Un proxy IPTV che è tuo",
-        "description": "Un proxy IPTV self-hosted costruito su FastAPI che raggruppa, filtra e serve in modo affidabile le playlist. Gira headless su Unraid.",
-        "stack": [
-          "Python",
-          "HTML"
-        ],
-        "status": "live",
-        "accent": "teal",
-        "metrics": [
-          {
-            "label": "Piattaforma",
-            "value": "Docker"
-          },
-          {
-            "label": "Tipo",
-            "value": "Proxy"
-          }
-        ]
-      },
-      {
         "slug": "selfstore",
         "name": "SelfStore",
         "tagline": "Il tuo app store, senza Play Store",
@@ -295,7 +273,7 @@ export const it: Dict = {
     "terminal": [
       "$ docker run -d selfcoder/selfarchiver",
       "✔ archiver running on :8088",
-      "$ curl selfstream.local/health",
+      "$ curl selfmailer.local/health",
       "✔ {\"status\":\"ok\",\"self_hosted\":true}"
     ]
   },

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "SelfCoder — Selbst gebaut. Selbst gehostet.",
   description:
     "Self-hosted, quelloffene Tools: IPTV-Proxy, Mail-Archiver, Dashboards. Gebaut, gehostet und kontrolliert von dir.",
-  keywords: ["self-hosted", "open source", "SelfStream", "SelfArchiver", "SelfDashboard", "Homelab"],
+  keywords: ["self-hosted", "open source", "SelfArchiver", "SelfDashboard", "Homelab"],
   openGraph: {
     title: "SelfCoder — Selbst gebaut. Selbst gehostet.",
     description: "Eine Familie eigener self-hosted Tools. Open Source, ohne Vendor Lock-in.",

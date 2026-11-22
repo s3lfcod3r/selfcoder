@@ -12,20 +12,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "selfstream",
-    name: "SelfStream",
-    tagline: "IPTV-Proxy, der dir gehört",
-    description:
-      "Ein self-hosted IPTV-Proxy auf FastAPI-Basis, der Playlists bündelt, filtert und stabil ausliefert — inklusive rebrandetem Android-Player. Läuft headless auf Unraid.",
-    stack: ["FastAPI", "Python", "Docker", "Unraid"],
-    status: "live",
-    accent: "teal",
-    metrics: [
-      { label: "Plattform", value: "Unraid" },
-      { label: "Player", value: "Android APK" },
-    ],
-  },
-  {
     slug: "selfarchiver",
     name: "SelfArchiver",
     tagline: "E-Mail-Archiv ohne Cloud-Zwang",
